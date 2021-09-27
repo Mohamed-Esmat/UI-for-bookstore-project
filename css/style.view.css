@@ -1,0 +1,390 @@
+body
+{
+    font-family: 'Montserrat Alternates',
+    sans-serif,'Satisfy', 'cursive',
+    'fontAwesome', sans-serif;
+
+}
+.w-90
+{
+    width: 90%;
+}
+.fonts span
+{
+    font-family: 'Satisfy', cursive;
+    font-weight: 500;
+    font-size: 32px;
+
+}
+.hover_nav li:hover
+{
+    color: #f25454;
+    transition: color .3s;
+}
+.bookStore
+{
+    background-color: #515570;
+    color: #ffffff;
+}
+.bookStore h2
+{
+    
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+.bookStore p
+{
+    font-size: 15px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 20px;
+    transition: color .5s;
+}
+.bookStore p:hover
+{
+    color: #337ab7;
+}
+.popular-section-color
+{
+    background-color: #EDF3F4;
+    border-top: 1px solid #EDF3F4;
+    border-bottom: 1px solid #EDF3F4;
+    
+}
+/* .rating
+{
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-size: 1em;
+    width: 5.4em;
+    font-family: star;
+}
+.rating::before
+{
+    content: "\73\73\73\73\73";
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    color: #2f2b35;
+} */
+.cardCapion
+{
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-top: 20px;
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 40px;
+}
+.rating
+{
+    transform: rotate(180deg);
+}
+.rating input
+{
+    display: none;
+    
+}
+.rating label
+{
+    display: block;
+    cursor: pointer;
+    width: 18px;
+    position: relative;
+    
+
+}
+.rating label::before
+{
+    content: "\f005";
+    font-family: 'fontAwesome';
+    font-size: 15px;
+    color: #2F2B35;
+    
+    display: block;
+}
+.rating label::after
+{
+    content: "\f005";
+    font-family: 'fontAwesome';
+    font-size: 15px;
+    color: #ffee00;
+    position: absolute;
+    display: block;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+.rating label:hover::after ,
+.rating input:checked ~ label::after,
+.rating label:hover ~ label::after
+{
+    opacity: 1;
+}
+.capiton-see-me
+{
+    color: #757575;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.786em;
+}
+.card-header-color
+{
+    color: #222222;
+    font-size: 25px;
+    line-height: 30px;
+}
+.btn-style
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 30px;
+    padding: 12px 30px;
+    border-radius: 20px;
+}
+.border-bottom-row
+{
+    margin-bottom: 1.875rem;
+    padding-bottom: 3.75rem;
+    border-bottom: 1px dashed #e5e5e5;
+}
+.book-details h3,.about-author h3
+{
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 1.35;
+    margin-bottom: 1.3rem;
+    color: #222222;
+    font-family: "Montserrat", sans-serif;
+}
+.about-author p
+{
+    line-height: 1.786em;
+}
+.section-p-top-bottom
+{
+    padding: 3.5rem 0;
+}
+.best-seller-section-color
+{
+    background-color: #2F2B35;
+}
+.best-seller-section-color
+{
+    background-color: #2F2B35;
+}
+.best-seller-h4-style h4
+{
+    color: #96919D;
+}
+.team_member_h3
+{
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #282828;
+margin: 1.25rem 0 0 0;
+transition: color .5s;
+}
+.team_member_p
+{
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+color: #666;
+}
+.viewAndCard
+{
+    width: 85%;
+    border-radius: 20px;
+    border: 1px solid #bfc7c8;
+    
+}
+.viewAndCard a
+{
+    color: #3c3d41;
+    font-size: 10px;
+    line-height: 30px;
+    font-size: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.buyCard
+{
+    border-left: 1px solid #bfc7c8;
+}
+.viewAndCard a span
+{
+    color: #acb3b4;
+    font-family:"FontAwesome";
+    font-size: 16px;
+    vertical-align: bottom;
+}
+.buyCard::before a
+{
+    content: "\f1d8";
+    font-family: "FontAwesome";
+}
+.position_div
+{
+background-color: #f25454;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+transition: opacity .5s;
+}
+.position_div_height
+{
+height: 0%;
+transition: height .2s;
+}
+.position_div a
+{
+color: white;
+}
+.team_member:hover img
+{
+transform: scale(1.2);
+}
+.team_member:hover .position_div
+{
+opacity: .7;
+}
+.team_member:hover .position_div_height
+{
+height: 10%;
+}
+.team_member:hover .team_member_h3
+{
+color: #f25454;
+}
+.img_contanier img
+{
+ width: 100%;
+}
+.img_contanier
+{
+   
+position: relative;
+border-radius: 5px;
+overflow: hidden;
+}
+.img_contanier img
+{
+width: 100%;
+transition: transform 1s;
+}
+.team_member
+{
+    border-radius: 5px;
+}
+.fottter_head
+{
+    background-color: #222222;
+    padding: 4rem;
+    background-image: url(../img/dotted-map.png);
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: contain;
+    position: relative;
+
+
+}
+.contact h5
+{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+}
+.contact p
+{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #b0b0b0;
+}
+.contact_p
+{
+    padding-right: 100px;
+}
+.contact ul
+{
+    padding-left: 0;
+}
+.contact ul li
+{
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+.contact ul a
+{
+    text-decoration: none;
+    color: #b0b0b0;
+}
+.contact ul a:hover
+{
+    color: #f25454;
+    transition: color .3s;
+}
+.footer_tail
+{
+    background-color: #1A1A1A;
+}
+.footer_tail_ul ul
+{
+    display: flex;
+    margin-bottom: 0;
+}
+.footer_tail_ul ul li
+{
+    list-style-type: none;
+}
+.footer_tail_ul ul a
+{
+    color: white;
+}
+.footer_tail_ul ul a:hover
+{
+    color: #f25454;
+    transition: .3s;
+}
+.footer_copy
+{
+    font-size: 14px;
+    line-height: 16px;
+}
+.footer_copy p
+{
+    color: #b0b0b0;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.footer_copy p span
+{
+    color: #fff;
+    font-weight: 600;
+}
+.footer_copy p span:hover
+{
+    color: #f25454;
+    transition: .3s;
+}
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+    .viewAndCard {
+      width: 95%;
+    }
+}
+

@@ -1,0 +1,109 @@
+.popular-section-color
+{
+    background-color: #EDF3F4;
+    border-top: 1px solid #EDF3F4;
+    border-bottom: 1px solid #EDF3F4;
+    
+}
+.card-section
+{
+    padding: 3.75rem 0;
+    
+}
+.card-detail-item i
+{
+    font-size: 10px;
+    color: red;
+    background-color: transparent;
+}
+.card-detail-item .div-icon:hover
+{
+    
+    background-color:red;
+}
+.card-detail-item .div-icon:hover i
+{
+    color: #fff;
+}
+.card-detail-item p
+{
+    font-size: 14px;
+    color: #222222;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: normal;
+    color: #757575;
+}
+.line-height
+{
+    line-height: 1.5em;
+}
+.cont-table
+{
+    margin-bottom: 3.125rem;
+}
+.div-table-card table tr th
+{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.card-font-size-weight h3
+{
+
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.style-proceed
+{
+    background-color: #2f2b35;
+    color: #fff;
+    width: 100%;
+    border-radius: 50px;
+    padding: 1em;
+    font-family: sans-serif;
+}
+.style-proceed:hover
+{
+    background-color: #4c4c4d;
+    cursor: pointer;
+}
+.style-proceed a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.viewAndCard
+{
+    width: 95%;
+    border-radius: 20px;
+    border: 1px solid #bfc7c8;
+    
+}
+.buyCard
+{
+    border-left: 1px solid #bfc7c8;
+}
+
+/*
+.buyCard
+{
+    display: inline-block; 
+}
+ .view a p
+{
+    font-weight: normal;
+} */
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+    .viewAndCard {
+      width: 95%;
+    }
+    .view a .na4ls
+    {
+        display: none;
+    }
+    /* .view a p
+    {
+        display: none;
+    } */
+    
+    }
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Read</title>
+    <link rel="icon" href="img/open-book.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.view.css">
+    <link rel="stylesheet" href="css/style.card.css">
+    <link rel="stylesheet" href="css/style.home.css">
+    <link rel="stylesheet" href="css/add.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="fonts w-90 container-fluid">
+            <span class="navbar-brand mb-0 h1">We Read</span>
+            <ul class="nav m-auto ">
+                <li class="nav-item ">
+                    <a class="nav-link active text-white hover_nav" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white hover_nav" href="#">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white hover_nav" href="order.history.html">Order History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white hover_nav" href="account.html">My Account</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white hover_nav" href="client.info.html">Client Info</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white hover_nav" href="add.html">Add</a>
+                </li>
+            </ul>
+            <ul class="nav justify-content-end">
+
+                <li>
+                    <a class="btn btn-outline-primary mx-2 nav-link" href="login.html">Logout</a>
+                </li>
+                <li class=" nav-item ">
+                    <a href="#" class="nav-link pl-3 text-white hover_nav">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="bookStore py-5 text-center">
+            <h2 class=" py-2">Add</h2>
+            <p class=" py-1 d-inline-block"><a href="admin.home.html">Home</a></p>
+            <p class=" d-inline-block"> / add</p>
+        </div>
+    </header>
+
+    <section class="popular-section-color section-p-top-bottom">
+        <div class="h4Style container text-center bg-white">
+            <div class="sha3l container my-5 py-3 mr-auto">
+                <div class="form-group">
+                    <label class=" text-info" for="">Book Name</label>
+                    <input id="productName" class=" form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label class=" text-info" for="">Book Price</label>
+                    <input id="productPrice" class=" form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label class=" text-info" for="">Book Catagry</label>
+                    <input id="productCatagary" class=" form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label class=" text-info" for="">Book Description</label>
+                    <textarea id="productDesc" class=" form-control" type="text"></textarea>
+                </div>
+                <button class=" btn btn-primary" onclick="addProduct()">Add product</button>
+        
+        
+                <!-- <button onclick="undoProducts()" class="btn btn-warning">UnDO</button> -->
+        
+        
+                <input type="text" placeholder="Search for Product" onkeyup="searchProducts(this.value)" class="form-control w-75 mx-auto my-5">
+                <table class=" table text-center">
+                    <thead class=" text-primary">
+                        <th>Book Name</th>
+                        <th>Book Price</th>
+                        <th>Book Catagry</th>
+                        <th class=" w-25">Description</th>
+                        <th>Up date</th>
+                        <th>Delete</th>
+                    </thead>
+                    <tbody  id="tBody" class=" text-dark">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mine.js"></script>
+</body>
+
+</html>

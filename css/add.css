@@ -1,0 +1,18 @@
+body
+{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.container
+{
+    border: .3px solid white;
+    border-radius: 15px;
+    box-shadow: rgba(222, 159, 247, 0.25) 0px 50px 100px -20px, 
+    rgba(222, 159, 247, 0.25) 0px 30px 60px -30px, 
+    rgba(222, 159, 247, 0.25) 0px -2px 6px 0px inset;
+    
+  
+}

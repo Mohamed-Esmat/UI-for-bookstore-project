@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Read</title>
+    <link rel="icon" href="img/open-book.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.home.css">
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+        <div class="fonts w-90 container-fluid">
+            <span class="navbar-brand mb-0 h1">We Read</span>
+            <ul class="nav m-auto ">
+                <li class="nav-item ">
+                    <a class="nav-link active text-white hover_nav" href="admin.home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white hover_nav" href="#">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white hover_nav" href="order.history.html">Order History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white hover_nav" href="account.admin.html">My Account</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white hover_nav" href="client.info.html">Client Info</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white hover_nav" href="add.html">Add</a>
+                </li>
+
+            </ul>
+            <ul class="nav justify-content-end">
+                <li>
+                    <a class="btn btn-outline-primary mx-2 nav-link" href="index.html">Logout</a>
+                </li>
+                <li class=" nav-item ">
+                    <a href="#" class="nav-link pl-3 text-white hover_nav">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="home">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade parent_of_prev_icon_position"
+            data-ride="carousel">
+            <ol class="makeItCircle carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner full-height">
+                <div class="carousel-item active">
+                    <div class="backGroundImage backGroundImage1">
+                        <!-- <img class="background_sora" src="img/slideshow-1.jpg" alt=""> -->
+                        <div class="layer">
+                            <div class="cont home_title">
+                                <p class=" ml-5">Reading is the best for get idea.</p>
+                                <h2>Start Reading</h2>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="backGroundImage backGroundImage2">
+                        <!-- <img class="background_sora" src="img/slideshow-1.jpg" alt=""> -->
+                        <div class="layer">
+                            <div class="cont home_title">
+                                <h2>Keep Reading.</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="backGroundImage backGroundImage3">
+                        <!-- <img class="background_sora" src="img/slideshow-1.jpg" alt=""> -->
+                        <div class="layer">
+                            <div class="cont home_title">
+                                <p class=" ml-5 pl-5">Writing to improve your imagination.</p>
+                                <h2>Let's Writing</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="prev_button">
+
+            </div> -->
+            <div class="padd padd1">
+                <!-- <div class="hover_carousel carousel-control-prev-icon"></div> -->
+
+                <!-- <div class="hover_carousel">
+                        <div class=" width_O">
+                            <a class="carousel-control-prev" href="">
+                                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            </a>
+                        </div> 
+                    </div>-->
+                <div class="carry_prev_link">
+                    <a class="carousel-control-prev " href="#carouselExampleFade" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="padd padd2">
+                <!--<div class="hover_carousel">
+                         <div class=" width_O">
+                            <a class="carousel-control-prev" href="">
+                                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            </a>
+                        </div> 
+                    </div>-->
+                <div class="carry_prev_link">
+                    <a class="carousel-control-prev " href="#carouselExampleFade" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <input type="text" placeholder="Search for a Book" class="form-control w-75 mx-auto my-5">
+
+    <section class="popular-section-color section-p-top-bottom">
+        <div class="h4Style container text-center">
+            <h4>Popular Books</h4>
+
+            <div class=" background_row row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="team_member">
+                        <div class="img_contanier">
+                            <img src="img/book-1.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">App Developer</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="team_member">
+                        <div class="img_contanier">
+                            <img src="img/book-2.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">App Developer</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="team_member">
+                        <div class="img_contanier">
+                            <img src="img/book-3.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">App Developer</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="team_member">
+                        <div class="img_contanier">
+                            <img src="img/book-4.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">App Developer</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="team_member">
+                        <div class="img_contanier">
+                            <img src="img/book-5.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">App Developer</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="team_member">
+                        <div class="img_contanier">
+                            <img src="img/book-6.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">App Developer</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="team_member">
+                        <div class="img_contanier">
+                            <img src="img/book-2.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">App Developer</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="team_member">
+                        <div class="img_contanier">
+                            <img src="img/book-3.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">App Developer</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="team_member">
+                        <div class="img_contanier">
+                            <img src="img/book-1.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">App Developer</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="team_member">
+                        <div class="img_contanier">
+                            <img src="img/book-4.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">$180.00</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="team_member">
+                        <div class="img_contanier">
+                            <img src="img/book-2.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">App Developer</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="team_member">
+                        <div class="img_contanier">
+                            <img src="img/book-3.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">App Developer</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="best-seller-section-color section-p-top-bottom">
+        <div class=" container best-seller best-seller-h4-style text-center">
+            <h4 class=" mb-5">Best Seller</h4>
+
+            <div class=" background_row row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 ">
+                    <div class="team_member bg-white pb-3">
+                        <div class="img_contanier">
+                            <img src="img/book-5.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">$10.00</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 ">
+                    <div class="team_member bg-white pb-3">
+                        <div class="img_contanier">
+                            <img src="img//book-2.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">$109.00</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 ">
+                    <div class="team_member bg-white pb-3">
+                        <div class="img_contanier">
+                            <img src="img/book-3.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">$108.00</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="team_member bg-white pb-3">
+                        <div class="img_contanier">
+                            <img src="img/book-4.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">$107.00</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="team_member bg-white pb-3">
+                        <div class="img_contanier">
+                            <img src="img/book-5.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">$103.00</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="team_member bg-white pb-3">
+                        <div class="img_contanier">
+                            <img src="img/book-6.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">$159.00</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="team_member bg-white pb-3">
+                        <div class="img_contanier">
+                            <img src="img/book-5.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">$103.00</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="team_member bg-white pb-3">
+                        <div class="img_contanier">
+                            <img src="img/book-6.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">$159.00</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <section class="popular-section-color section-p-top-bottom">
+        <div class=" container best-seller best-seller-h4-style text-center">
+            <h4 class=" mb-5">New Books</h4>
+
+            <div class=" background_row row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 ">
+                    <div class="team_member bg-white pb-3">
+                        <div class="img_contanier">
+                            <img src="img/book-1.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">$10.00</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 ">
+                    <div class="team_member bg-white pb-3">
+                        <div class="img_contanier">
+                            <img src="img/book-3.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">$108.00</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 ">
+                    <div class="team_member bg-white pb-3">
+                        <div class="img_contanier">
+                            <img src="img/book-5.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">$10.00</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="team_member bg-white pb-3">
+                        <div class="img_contanier">
+                            <img src="img/book-6.jpg" alt="">
+                            <div class=" position_div d-flex justify-content-center align-items-center">
+                                <div class="position_div_height d-flex justify-content-between" style="width: 60%;">
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="position_div_a" href="#">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption ">
+                            <h5 class="team_member_h3">Martin Lawrence</h5>
+                            <p class="team_member_p">$190.00</p>
+                            <div class="viewAndCard d-flex m-auto">
+                                <div class="view w-50 h-100 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fab fa-telegram-plane"></i></span> View</a>
+                                </div>
+                                <div class="buyCard h-100 w-50 text-center">
+                                    <a href="#" class=""><span class=" pr-1"><i
+                                                class="fas fa-shopping-cart"></i></span>Add to Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="fottter_head">
+            <div class="fottter_position"></div>
+            <div class="contanier text-center">
+                <img src="img/icon.png" alt="">
+            </div>
+            <div class=" container p-5">
+                <div class="row m-auto">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="contact">
+                            <h5>Contact Info</h5>
+                            <div class="contact_p">
+                                <p>1650 Faisal Street,
+                                    Giza, CA 94123</p>
+                                <p>+2 011 2325 6073
+                                    [email protected]</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="contact">
+                            <h5>Useful Links</h5>
+                            <ul>
+                                <a href="#">
+                                    <li>Support</li>
+                                </a>
+                                <a href="#">
+                                    <li>Privacy Policy</li>
+                                </a>
+                                <a href="#">
+                                    <li>Terms & Conditions</li>
+                                </a>
+                                <a href="#">
+                                    <li>Affiliate Program</li>
+                                </a>
+                                <a href="#">
+                                    <li>Careers</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="contact">
+                            <h5>Recent Posts</h5>
+                            <ul>
+                                <a href="#">
+                                    <li>Sunset in Venice</li>
+                                </a>
+                                <a href="#">
+                                    <li>Aerial View of Village</li>
+                                </a>
+                                <a href="#">
+                                    <li>Lighted Concrete City</li>
+                                </a>
+                                <a href="#">
+                                    <li>The Little Ghost</li>
+                                </a>
+                                <a href="#">
+                                    <li>Royal Oats ft. Waldo</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="contact">
+                            <h5>Popular Tags</h5>
+                            <div class="row">
+                                <div class="col-4 " style="padding-left: 0px; padding-right: 0px;">
+                                    <button type="button" class="btn btn-outline-danger">Science</button>
+                                </div>
+                                <div class="col-4" style="padding-left: 0px; padding-right: 0px;">
+                                    <button type="button" class="btn btn-outline-danger">Action</button>
+                                </div>
+                                <div class="col-4" style="padding-left: 0px; padding-right: 0px;">
+                                    <button type="button" class="btn btn-outline-danger">Romantic</button>
+                                </div>
+                            </div>
+                            <div class="row mt-1 mb-1">
+                                <div class="col-5 " style="padding-left: 0px; padding-right: 0px;">
+                                    <button type="button" class="btn btn-outline-danger">Kids Stories</button>
+                                </div>
+                                <div class="col-3" style="padding-left: 0px; padding-right: 0px;">
+                                    <button type="button" class="btn btn-outline-danger">Novels</button>
+                                </div>
+                                <div class="col-4" style="padding-left: 0px; padding-right: 0px;">
+                                    <button type="button" class="btn btn-outline-danger">Graphic</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4" style="padding-left: 0px; padding-right: 0px;">
+                                    <button type="button" class="btn btn-outline-danger">Design</button>
+                                </div>
+                                <div class="col-8" style="padding-left: 0px; padding-right: 0px;">
+                                    <button type="button" class="btn btn-outline-danger">Development</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_tail">
+            <div class=" container">
+                <div class="row d-flex pt-4 pb-4">
+                    <div class="footer_tail_ul">
+                        <ul>
+                            <a href="https://twitter.com/Mohamed42605912">
+                                <li class="mr-4"><i class="fab fa-twitter fa-fw"></i></li>
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=100017601133381">
+                                <li class="mr-4"><i class="fab fa-facebook-f fa-fw"></i></li>
+                            </a>
+                            <a href="#">
+                                <li class="mr-4"><i class="fab fa-instagram fa-fw"></i></li>
+                            </a>
+                            <a href="#">
+                                <li class="mr-4"><i class="fab fa-dribbble fa-fw"></i></li>
+                            </a>
+                            <a href="pinterest.com/msmt0452/_saved/">
+                                <li class="mr-4"><i class="fab fa-pinterest fa-fw"></i></li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="footer_copy ml-auto">
+                        <p>Copyright © 2021 <span>Esmat</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

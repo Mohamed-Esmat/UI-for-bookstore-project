@@ -1,0 +1,69 @@
+.bookStore
+{
+    background-color: #515570;
+    color: #ffffff;
+}
+.bookStore h2
+{
+    
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+.bookStore p
+{
+    font-size: 15px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 20px;
+    transition: color .5s;
+}
+.bookStore p:hover
+{
+    color: #337ab7;
+}
+.cont-form
+{
+    
+    padding: 20px;
+    margin: 4em 0;
+    text-align: left;
+    border-radius: 10px;
+}
+.cont-button a
+{
+    padding: .5rem 2rem;
+    border-radius: 20px;
+    background-color: #d3ced2;
+    text-decoration: none;
+    color: #515151;
+}
+.cont-button a:hover
+{
+    background-color: rgba(59, 59, 59);
+    color: #fff;
+}
+.cont-form label
+{
+    line-height: 2;
+    margin-bottom: 5px;
+    color: #757575;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+.popular-section-color
+{
+    background-color: #EDF3F4;
+    
+}
+.login-section
+{
+    border-top: 1px solid #EDF3F4;
+    border-bottom: 1px solid #EDF3F4;
+}
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+    .viewAndCard {
+      width: 95%;
+    }
+}
